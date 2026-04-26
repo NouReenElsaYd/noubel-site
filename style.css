@@ -13,7 +13,7 @@ a{
 }
 header{
     position: absolute;
-    width: 95%;
+    width: 100%;
     z-index: 100;
     display: flex;
     justify-content: space-between;
@@ -54,7 +54,7 @@ header ul li a:hover , header ul li a.active{
 
 .main{
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     display: flex;   /* for nouvel word be behind of the moon*/
     justify-content: center;
@@ -75,11 +75,11 @@ width: 100%;
 .main img{
     position: absolute;
     width: 100%;
-    height: 120vh;
+    height: 120%;
     object-fit: cover;
 }
 #moon{
-    transform: translateY(-20px);
+    transform: translateY(3vh);
     mix-blend-mode: screen;
 }
 .nouvel{
